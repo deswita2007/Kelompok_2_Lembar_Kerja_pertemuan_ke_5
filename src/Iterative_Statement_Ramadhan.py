@@ -27,9 +27,10 @@ for perulangan in range(20):
     print(perulangan)
 
 # 3. else pada Loop
-for perulangan_pertama in range(6):
-    for perulangan_kedua in range(7):
-        print(perulangan_pertama, perulangan_kedua)
+for i in range(5):
+    print(i)
+else:
+    print("Perulangan selesai")
 
 # nested Loop (perulangan bersarang)
 for i in range(9):
@@ -53,9 +54,9 @@ print("Total:", total)
 
 # 2. menghitung faktorial
 n = 9
-faktorial = 5
+faktorial = 1
 
-for i in range(5, n+1):
+for i in range(1, n+1):
     faktorial *= i
 
 print("Faktorial:", faktorial)
