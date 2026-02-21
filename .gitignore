@@ -1,6 +1,19 @@
 # Created by venv; see https://docs.python.org/3/library/venv.htmlgit
-# Abaikan semua
+# Abaikan semua file/folder
 *
 
 # Kecuali folder src
-!/src/
+!src/
+
+# Abaikan isi src kecuali file di dalamnya
+src/*
+
+# Kecuali semua file di src (agar tetap masuk)
+!src/**
+
+# Kecuali README.md di root
+!README.md
+
+!.gitignore
+!pyvenv.cfg
+!Deswitasari
